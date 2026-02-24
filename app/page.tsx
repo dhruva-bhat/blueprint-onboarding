@@ -22,9 +22,11 @@ export default function Home() {
         </div>
 
         <div className={styles.contentScroll}>
-          <ProfileIcon size={24} />
-          <p>etam3 at Mission Bit</p>
-          <p>San Francisco, CA</p>
+          <div className={styles.profileRow}>
+            <ProfileIcon size={24} />
+            <p>etam3 at Mission Bit</p>
+            <p>San Francisco, CA</p>
+          </div>
 
           <img
             className={styles.postImage}
@@ -43,17 +45,26 @@ export default function Home() {
             here: https://missionbit.org/get-involved/volunteer-with-us/
           </p>
 
-          <div className={styles.iconRow} />
-          <HeartIcon size={24} />
-          <TbMessageCircle size={24} />
-          <ShareIcon size={24} />
-          <div />
+          <div className={styles.iconRow}>
+            <div className={styles.iconLeft}>
+              <HeartIcon size={24} />
+              <TbMessageCircle size={24} />
+            </div>
+            <div className={styles.iconRight}>
+              <ShareIcon size={24} />
+            </div>
+          </div>
 
           <p>February 1</p>
+        </div>
 
-          <ProfileIcon size={24} />
-          <p>carolyn123 at Boys and Girls Club</p>
-          <p>Oakland, CA</p>
+        <div className={styles.contentScroll}>
+          <div className={styles.profileRow}>
+            <ProfileIcon size={24} />
+            <p>carolyn123 at Boys and Girls Club</p>
+            <p>Oakland, CA</p>
+          </div>
+
           <p>I recently volunteered at my local Boys and Girls Club!</p>
         </div>
       </div>
