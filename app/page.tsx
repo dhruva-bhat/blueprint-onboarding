@@ -26,10 +26,12 @@ export default function Home() {
           <p>etam3 at Mission Bit</p>
           <p>San Francisco, CA</p>
 
-          <p>
-            Image Link:
-            https://cdn.britannica.com/51/178051-050-3B786A55/San-Francisco.jpg
-          </p>
+          <img
+            className={styles.postImage}
+            src="https://cdn.britannica.com/51/178051-050-3B786A55/San-Francisco.jpg"
+            width={346}
+            height={231}
+          />
 
           <p>
             This past weekend, I taught at Mission Bit. I was working with a
@@ -41,11 +43,11 @@ export default function Home() {
             here: https://missionbit.org/get-involved/volunteer-with-us/
           </p>
 
-          <p>3 Likes</p>
-          <p>View 2 Comments</p>
+          <div className={styles.iconRow} />
           <HeartIcon size={24} />
           <TbMessageCircle size={24} />
           <ShareIcon size={24} />
+          <div />
 
           <p>February 1</p>
 
