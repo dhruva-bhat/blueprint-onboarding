@@ -52,17 +52,27 @@
   color: #0078e8;
 }
 
-.contentScroll {
+.contentSurround {
   width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin: 10px auto;
-  padding: 5px;
+  margin: 5px auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.contentScroll {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5px auto;
   font-size: 11px;
-  padding-top: 40px;
+  font-family: 'Poppins', sans-serif;
   border: 10px black;
 }
 
@@ -80,7 +90,6 @@
 
 .profileRow {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -88,6 +97,25 @@
   border-radius: 10;
   gap: 15;
   padding-right: 5px;
+}
+
+.profileName{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10;
+  gap: 15;
+  padding-left: 10px;
+  font-size: 11px;
+}
+
+.locName{
+  width: 100%;
+  display: flex;
+  font-size: 9px;
+  font-style:italic;
 }
 
 .iconRow {
@@ -99,6 +127,8 @@
   border-radius: 10;
   gap: 15;
   padding-right: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .iconLeft {

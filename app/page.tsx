@@ -20,12 +20,21 @@ export default function Home() {
             <span className={styles.blueprint}>blueprint</span> volunteers
           </span>
         </div>
-
+        <div className={styles.contentSurround}>
         <div className={styles.contentScroll}>
           <div className={styles.profileRow}>
-            <ProfileIcon size={24} />
-            <p>etam3 at Mission Bit</p>
-            <p>San Francisco, CA</p>
+            <ProfileIcon size={30} />
+            <div className={styles.profileName}>
+            <p>
+              <span style={{fontWeight: 'bold' }}>etam3</span>
+              <span style={{fontWeight: 'normal' }}> at </span>
+              <span style={{fontWeight: 'bold' }}>Mission Bit</span>
+
+              </p>
+            <div className={styles.locName}>
+            <p style={{fontWeight: 'lighter'}}>San Francisco, CA</p>
+            </div>
+            </div>
           </div>
 
           <img
@@ -60,13 +69,22 @@ export default function Home() {
 
         <div className={styles.contentScroll}>
           <div className={styles.profileRow}>
-            <ProfileIcon size={24} />
-            <p>carolyn123 at Boys and Girls Club</p>
-            <p>Oakland, CA</p>
+            <ProfileIcon size={30} />
+            <div className={styles.profileName}>
+              <p>
+              <span style={{fontWeight: 'bold' }}> carolyn123 </span> 
+              <span style={{fontWeight: 'normal'}}> at </span>
+               <span style={{fontWeight: 'bold' }}>Boys and Girls Club</span>
+               </p>
+              <div className={styles.locName}>
+              <p style={{fontWeight: 'lighter'}}>Oakland, CA</p>
+              </div>
+            </div>
           </div>
 
           <p>I recently volunteered at my local Boys and Girls Club!</p>
         </div>
+      </div>
       </div>
     </main>
   );
