@@ -117,7 +117,7 @@
   font-size: 9px;
   font-style: italic;
 }
-.smallText{
+.smallText {
   font-size: 10px;
   display: flex;
   flex-direction: row;
@@ -160,6 +160,6 @@
 }
 
 .postBorder {
-  width: 100%; 
-  border-bottom: 1px solid gray; 
+  width: 100%;
+  border-bottom: 1px solid gray;
 }

@@ -55,7 +55,7 @@ export default function Home() {
             <div className={styles.smallText}>
               <p>Likes 3</p>
               <p>View Comments 2</p>
-              </div>
+            </div>
             <div className={styles.iconRow}>
               <div className={styles.iconLeft}>
                 <HeartIcon size={24} />
@@ -66,7 +66,7 @@ export default function Home() {
               </div>
             </div>
 
-            <p style={{ fontWeight: "lighter", fontSize: 10}}>February 1</p>
+            <p style={{ fontWeight: "lighter", fontSize: 10 }}>February 1</p>
           </div>
           <div className={styles.postBorder}></div>
 
